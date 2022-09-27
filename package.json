@@ -4,7 +4,7 @@
   "description": "pokeapi",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha **/**/*.test.js"
+    "test": "mocha **/**/*.test.js"
   },
   "author": "",
   "license": "ISC",

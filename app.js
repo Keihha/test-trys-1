@@ -2,7 +2,7 @@ const express = require('express');
 const { registerUser } = require('./auth/users.controller');
 const { dbConnect} = require('./database');
 const server = express();
-const port = 3000;
+const port = 3001;
 
 // Importaciones generales
 const {setUpMiddleswares} = require('./middlewares/server-middleware');
